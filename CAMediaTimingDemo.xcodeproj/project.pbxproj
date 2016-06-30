@@ -13,6 +13,7 @@
 		777A81AB1CE0630D00BAF74C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777A81A91CE0630D00BAF74C /* Main.storyboard */; };
 		777A81AD1CE0630D00BAF74C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777A81AC1CE0630D00BAF74C /* Assets.xcassets */; };
 		777A81B01CE0630D00BAF74C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777A81AE1CE0630D00BAF74C /* LaunchScreen.storyboard */; };
+		777A81B81CE0685C00BAF74C /* image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 777A81B71CE0685C00BAF74C /* image@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		777A81AC1CE0630D00BAF74C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		777A81AF1CE0630D00BAF74C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		777A81B11CE0630D00BAF74C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777A81B71CE0685C00BAF74C /* image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				777A81A41CE0630D00BAF74C /* AppDelegate.m */,
 				777A81A61CE0630D00BAF74C /* ViewController.h */,
 				777A81A71CE0630D00BAF74C /* ViewController.m */,
+				777A81B71CE0685C00BAF74C /* image@2x.png */,
 				777A81A91CE0630D00BAF74C /* Main.storyboard */,
 				777A81AC1CE0630D00BAF74C /* Assets.xcassets */,
 				777A81AE1CE0630D00BAF74C /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777A81B81CE0685C00BAF74C /* image@2x.png in Resources */,
 				777A81B01CE0630D00BAF74C /* LaunchScreen.storyboard in Resources */,
 				777A81AD1CE0630D00BAF74C /* Assets.xcassets in Resources */,
 				777A81AB1CE0630D00BAF74C /* Main.storyboard in Resources */,
@@ -213,7 +217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -250,7 +254,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -298,6 +302,7 @@
 				777A81B61CE0630D00BAF74C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
